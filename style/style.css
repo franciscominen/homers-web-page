@@ -207,6 +207,11 @@ button img {
 }
 
 @media (max-width: 750px) {
+  .title {
+    font-size: 60px;
+    width: 90%;
+  }
+  }
   .parent {
     display: none;
   }
@@ -228,7 +233,7 @@ button img {
   }
 
   button {
-    bottom: 8%;
+    bottom: 1%;
   }
 
   .cortina-izq img {
