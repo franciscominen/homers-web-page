@@ -208,9 +208,9 @@ button img {
 
 @media (max-width: 750px) {
   .title {
-    font-size: 60px;
-    width: 90%;
-  }
+    font-size: 50px;
+    width: 70%;
+  
   }
   .parent {
     display: none;
