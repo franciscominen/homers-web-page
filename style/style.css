@@ -202,29 +202,40 @@ button img {
   transform: scale(1.3);
 }
 
+.parent-mobile {
+  display: none;
+}
+
 @media (max-width: 750px) {
   .parent {
+    display: none;
+  }
+  .parent-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .div1-mobile {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
   }
-  .title {
-    font-size: 72px;
-    display: block;
-    margin: 1em auto;
-    width: 200%;
-    text-align: center;
-    margin-top: 3em;
+
+  .div-mobile {
+    display: flex;
   }
-  a {
-    width: 200%;
-    font-size: 18px;
-    position: absolute;
-    bottom: -32em;
-  }
-  .cortina {
-    width: 102vw;
-    height: 204vh;
-  }
+
   button {
-    bottom: -78%;
+    bottom: 8%;
   }
+
+  .cortina-izq img {
+    max-width: 200px;
+  }
+  .cortina-der img {
+    max-width: 186px;
+  }
+
 }

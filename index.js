@@ -13,6 +13,6 @@ setTimeout("playAudio()", 2700);
 
 let mutedButton = document.getElementById('mutedBtn')
 
-mutedButton.onclick = function(e) {
-    sound.muted = true
+mutedButton.onclick = function (e) {
+  sound.muted = true
 };
