@@ -132,7 +132,7 @@ body {
     #6d0019 94%,
     #b62a17 98%
   );
-  z-index: 123456;
+  z-index: 5;
 }
 
 .cortina-der {
@@ -233,7 +233,7 @@ button img {
   }
 
   button {
-    bottom: 2px;
+    bottom: -10px;
   }
 
   .cortina-izq img {
